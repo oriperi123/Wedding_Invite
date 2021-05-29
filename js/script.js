@@ -1,95 +1,104 @@
-/**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
- */
-(function ($) {
-    "use strict";
-      $('.sakura-falling').sakura();
-})(jQuery);
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+      <link rel="shortcut icon" href="favicon.png" type="image/png"> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="description"
+         content="With the divine grace of the almighty, inviting you and your family to Sonali's wedding to be held on 29th November at Ashirwad Garden, Ratu, Ranchi from 7:00 PM onwards.">
+      <meta name="author" content="Vinit Shahdeo">
+      <meta name="email" content="vinitshahdeo@gmail.com">
+      <meta name="copyright" content="Vinit Shahdeo 2020" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Wedding Invitation | 29th Nov | Ashirwad Garden, Ranchi" />
+      <meta property="og:description"
+         content="With the divine grace of the almighty, inviting you and your family to elder sister's wedding to be held on 29th November at Ashirwad Garden, Ratu, Ranchi from 7:00 PM onwards." />
+      <meta property="og:image" content="https://raw.githubusercontent.com/vinitshahdeo/vinitshahdeo/master/images/sonali.jpeg" />
+      <meta property="og:url" content="" />
+      <meta property="og:site_name" content="Wedding Invitation | 29th Nov" />
+      <meta name="twitter:card" content="website">
+      <meta name="twitter:site" content="Wedding Invitation | 29th Nov">
+      <meta name="twitter:title" content="Wedding Invitation | 29th Nov">
+      <meta name="twitter:description"
+         content="With the divine grace of the almighty, inviting you and your family to elder sister's wedding to be held on 29th November at Ashirwad Garden, Ratu, Ranchi from 7:00 PM onwards.">
+      <meta name="twitter:creator" content="@Vinit_Shahdeo">
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/vinitshahdeo/vinitshahdeo/master/images/sonali.jpeg">
 
-/**
- *
- * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
- *
- * Ever attended a North Indian Wedding? As soon as the DJ plays Din Shagna Da song, it means that the much-awaited moment is here
- * and the bride is all set to put her first foot forward to the wedding venue under a breathtaking phoolon ki chaadar.
- * Let's keep the sky-high status of this song untouched!
- *
- * When the website is backed up with a soul-stirring track, the feeling becomes absolutely surreal. 
- * Choose a heart-touching track! 🎵 ❤️
- *
- * Listen here: https://youtu.be/X0MDALpV29s
- *
- */
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
-});
+      <title>Wedding Invitation | Nov 29 | Ashirwad Garden, Ranchi</title>
 
-// Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
+      <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap'>
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!-- partial:index.partial.html -->
+      <div class="sakura-falling"></div>
+      <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" class="top-right-decoration">
+      <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" class="top-left-decoration"> 
+      <section id="media"></section>
+      <div class="wrap">
+         <div class="title">
+            <h1>Danielle </h1>
+            <h2>&</h2>
+            <h1>Guy</h1>
+            <h3>Are getting married</h3>
+            <p>
+               on <span class="date">16 July 2021</span></29>, At <span class="place">H'Givah</span> Givat Brener               
+            </p>
+         </div>
+      </div>
+      <div id="time"></div>
+      <p class="dance-med">
+         dinner & dancing to follow
+      </p>
+      <div class="actions">
+        <a href="https://www.google.com/maps/dir/32.0493696,34.8634676/%D7%94%D7%92%D7%91%D7%A2+%D7%91%D7%91%D7%A8%D7%A0%D7%A8%E2%80%AD%E2%80%AD/@31.9580303,34.9195928,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1502b764f6bd7259:0x2dd9e273d003509d!2m2!1d34.8041377!2d31.8708224" target="_blank">
+          <div class="venue">SEE THE VENUE</div>
+        </a>
+        <a href="https://github.com/vinitshahdeo/vinitshahdeo/raw/master/docs/Sonali%20%26%20Gagan.pdf" download="Invitation | 23 Nov | Hope to see you there!">
+          <div class="venue">DOWNLOAD INVITATION CARD</div>
+        </a>
+      </div>
+      <p class="footer">
+         Can't wait to celebrate auspicious moment of our family with you! <br>
+         Just a ping away for any queries: +91 8210050314
+         <span></span>
+      </p>
+      <div class="music">
+        <audio src="./assets/mp3/our_song.mp3" id="my_audio" loop="loop"></audio> 
+      </div>
+      <p class="happiness">Join us in our happiness!<br><a href="https://twitter.com/Vinit_Shahdeo" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></p>
+      <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
+      <script  src="./js/script.js"></script>
+   </body>
+<!---
+   _____                     __  __            ____        __     
+  / ___/____ __   _____     / /_/ /_  ___     / __ \____ _/ /____ 
+  \__ \/ __ `/ | / / _ \   / __/ __ \/ _ \   / / / / __ `/ __/ _ \
+ ___/ / /_/ /| |/ /  __/  / /_/ / / /  __/  / /_/ / /_/ / /_/  __/
+/____/\__,_/ |___/\___/   \__/_/ /_/\___/  /_____/\__,_/\__/\___/ 
+    _   __              ___  ____       ___   ____ ___   ____     
+   / | / /___ _   __   |__ \/ __ \     |__ \ / __ \__ \ / __ \    
+  /  |/ / __ \ | / /   __/ / /_/ /     __/ // / / /_/ // / / /    
+ / /|  / /_/ / |/ /   / __/\__, /     / __// /_/ / __// /_/ /     
+/_/ |_/\____/|___/   /____/____( )   /____/\____/____/\____/      
+                               |/                                 
+-->
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+<!--
 
-    // Get todays date and time
-    var now = new Date().getTime();
-    
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-    
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-    // Output the result in an element with id="demo"
-    document.getElementById("time").innerHTML = "<div class='container'><div class='days block'>"+ days + "<br>Days</div>" + "<div class='hours block'>" + hours + "<br>Hours</div>" + "<div class='minutes block'>" + minutes + "<br>Minutes</div>" + "<div class='seconds block'>" + seconds + "<br>Seconds</div></div>";
-    
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
-    }
-}, 1000);
+With the divine grace of the almighty,
+I cordially invite you and your family to
+my elder sister's wedding to be held on 29th November at Ashirwad Garden, Ratu, Ranchi 
+from 7:00 PM onwards.
 
-// being a bit cool :p  
-var styles = [
-    'background: linear-gradient(#D33106, #571402)'
-    , 'border: 4px solid #3E0E02'
-    , 'color: white'
-    , 'display: block'
-    , 'text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3)'
-    , 'box-shadow: 0 2px 0 rgba(255, 255, 255, 0.4) inset, 0 5px 3px -5px rgba(0, 0, 0, 0.5), 0 -13px 5px -10px rgba(255, 255, 255, 0.4) inset'
-    , 'line-height: 40px'
-    , 'text-align: center'
-    , 'font-weight: bold'
-    , 'font-size: 32px'
-].join(';');
+I'd eagerly await your kind presence in auspicious occasion of my family.
 
-var styles1 = [
-    'color: #FF6C37'
-    , 'display: block'
-    , 'text-shadow: 0 2px 0 rgba(0, 0, 0, 1)'
-    , 'line-height: 40px'
-    , 'font-weight: bold'
-    , 'font-size: 32px'
-].join(';');
+-->
 
-var styles2 = [
-    'color: teal'
-    , 'display: block'
-    , 'text-shadow: 0 2px 0 rgba(0, 0, 0, 1)'
-    , 'line-height: 40px'
-    , 'font-weight: bold'
-    , 'font-size: 32px'
-].join(';');
+<!-- Built with love by Vinit Shahdeo -->
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
-
-console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
-
-console.log(
-    `%cShaadi me zaroor aana!\n\n`,
-    'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
-)
+</html>
