@@ -609,3 +609,8 @@ a {
 	font-size: 32px;
 	letter-spacing: 2pt;
 }
+
+.waze{
+	width: 160px;
+	height: 90px;
+}
