@@ -411,10 +411,10 @@ img {
 
 .title h3 {
 	font-family: 'Amatic SC', cursive;
-	font-weight: 300;
+	font-weight: 1500;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 24px;
+	font-size: 48px;
 	color: #674ea7;
 	margin-top: 5px;
 }
