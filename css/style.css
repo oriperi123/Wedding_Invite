@@ -395,7 +395,7 @@ img {
 	margin: 0;
 	padding: 0;
 	font-size: 40px;
-	color: #e25c67;
+	color:#e25c67; 
 	line-height: 1;
 }
 
@@ -527,9 +527,9 @@ body {
 
 .date {
 	font-family: 'Amatic SC', cursive;
-	color: #874562;
-	font-weight: 1400;
-	font-size: 36px;
+	color: #e25c67;
+	font-weight: 1800;
+	font-size: 40px;
 	
 }
 
@@ -537,6 +537,11 @@ body {
 	font-family: 'Amatic SC', cursive;
 	color: #874562;
 	font-weight: 900;
+	font-size: 30px;
+}
+.fa-glass{
+	color: #564861;
+	border-color:black;
 }
 .rings{
 	width:90px;
@@ -601,5 +606,5 @@ a {
 .actions {
 	display: flex;
 	font-size: 32px;
-	letter-spacing: 2pt;
+	letter-spacing: 3pt;
 }
