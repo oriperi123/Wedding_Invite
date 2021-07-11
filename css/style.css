@@ -524,11 +524,13 @@ body {
 }
 
 .date {
+	font-family: 'Amatic SC', cursive;
 	color: #874562;
 	font-weight: 900;
 }
 
 .place {
+	font-family: 'Amatic SC', cursive;
 	color: #874562;
 	font-weight: 900;
 }
