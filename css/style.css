@@ -481,8 +481,8 @@ body {
 	text-align: center;
 	color: #fff;
 	font-family: 'Amatic SC', cursive;
-	padding: 8px;
-	margin-right: 10px;
+	padding: 10px;
+	margin-right: 6px;
 }
 
 .venue a {
@@ -607,5 +607,5 @@ a {
 .actions {
 	display: flex;
 	font-size: 32px;
-	letter-spacing: 3pt;
+	letter-spacing: 2pt;
 }
