@@ -588,7 +588,9 @@ a {
 	font-family: 'Amatic SC', cursive;
 	color: #874562;
 	align-items: center;
+	
 	display: block;
+	
 }
 
 .music {
