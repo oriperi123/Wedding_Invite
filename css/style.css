@@ -584,6 +584,7 @@ a {
 	color: #874562;
 	width: 200px;
 	height: 120px;
+	display: block;
 }
 
 .music {
