@@ -405,7 +405,7 @@ img {
 	font-style: normal;
 	font-size: 32px;
 	color: #674ea7;
-	margin: 16px;
+	margin: 2px;
 	text-align: center;
 }
 
@@ -416,7 +416,7 @@ img {
 	letter-spacing: 5px;
 	font-size: 48px;
 	color: #674ea7;
-	margin-top: 5px;
+	margin-top: 1px;
 }
 
 .title p {
@@ -482,7 +482,7 @@ body {
 	color: #fff;
 	font-family: 'Amatic SC', cursive;
 	padding: 8px;
-	margin-right: 8px;
+	margin-right: 10px;
 }
 
 .venue a {
@@ -506,7 +506,9 @@ body {
 	text-align: center;
 	color: #fff;
 }
-
+.paybox {
+	border-radius: 10px;
+}
 .days {
 	background: linear-gradient(90deg, #b33a46, #9b313c);
 }
@@ -536,7 +538,11 @@ body {
 	color: #874562;
 	font-weight: 900;
 }
-
+.rings{
+	width:90px;
+	color: #874562;
+	
+}
 .footer {
 	font-family: 'Amatic SC', cursive;
 	color: #564861;
@@ -576,10 +582,18 @@ a {
 .twitter {
 	font-family: 'Amatic SC', cursive;
 	color: #874562;
+	width: 150px;
 }
 
 .music {
 	display: none;
+}
+.payment{
+	font-family: 'Amatic SC', cursive;
+	color: #4a10b6;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .actions {
