@@ -20,10 +20,33 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Shaadi me zaroor aana');
-});
+
+  function changeImg() {
+      var image = document.getElementById('myImg');
+      if (image.src.match("assets/img/volume.png")) {
+          image.src = "assets/img/mute.png";
+      }
+      else {
+          image.src = "assets/img/volume.png";
+      }
+  }
+  $(document).ready(function(){
+    $(".musicOff").click(function(){
+        var image = document.getElementById('myImg');
+        var x = document.getElementById("my_audio");
+        x.play();
+        if (image.src.match("assets/img/mute.png")) {
+            image.src = "assets/img/volume.png";
+        }
+        else {
+            image.src = "assets/img/mute.png";
+            x.pause();
+        }
+    });
+  });
+
+
+
 
 // Set the date we're counting down to
 var countDownDate = new Date("September 10, 2021 00:00:00").getTime();
