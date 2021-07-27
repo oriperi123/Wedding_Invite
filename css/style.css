@@ -372,6 +372,7 @@ img {
 	display: block;
 }
 .musicOff{
+	position: absolute;
 	top:0;
 }
 .top-left-decoration {
