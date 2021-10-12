@@ -374,8 +374,9 @@ img {
 .musicOff{
 	position: absolute;
 	top: 0;
-	width: 160px;
-	height: 90px;
+	width: 50%;
+	text-align: center;
+	
 	
 }
 .top-left-decoration {
