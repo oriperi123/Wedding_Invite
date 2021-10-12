@@ -481,6 +481,7 @@ body {
 }
 
 .venue {
+	border: 2px solid black;
 	width: auto;
 	height: auto;
 	background-color: #674ea7;
