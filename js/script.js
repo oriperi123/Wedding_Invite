@@ -31,7 +31,7 @@
       }
   }
 
-  $(document).ready(function(){
+  $(document).ready(
     $(".musicOff").click(function(){
         var image = document.getElementById('myImg');
         var x = document.getElementById("my_audio");
