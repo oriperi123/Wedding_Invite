@@ -64,6 +64,33 @@
                           <br>            משפחת משהיוף &nbsp;&nbsp;&nbsp;&nbsp; משפחת לדרמן </br>
             <span></span>
          </p>
+<audio id="audio" >
+<source src="./assets/mp3/our_song.mp3"
+        type='audio/mpeg;
+        codecs="mp3"'/>
+</audio>
+
+<button ID="mute"
+    onclick="muteAudio()">
+
+<img src="./assets/img/mute.png"
+    ID="mute_img"/>
+
+<script type="text/javascript">
+
+function muteAudio() {
+var audio = document.getElementById('audioPlayer');
+
+if (audio.mute = false) {
+    document.getElementById('audioPlayer').muted = true;
+}
+else {
+    audio.mute = true 
+    document.getElementById('audioPlayer').muted = false;
+
+    }
+}
+</script>
       <div class="music">
         <audio src="./assets/mp3/our_song.mp3" id="my_audio" loop="loop"></audio> 
       </div>
