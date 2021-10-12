@@ -30,6 +30,10 @@
           image.src = "assets/img/volume.png";
       }
   }
+$(document).ready( function(){
+    document.getElementById("my_audio").play();
+
+});
 
     $(".musicOff").click(function(){
         var image = document.getElementById('myImg');
