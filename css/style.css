@@ -492,7 +492,21 @@ body {
 	padding: 10px;
 	margin-right: 6px;
 }
+.parent {
+	position: relative;
 
+  }
+
+  .image2 {
+	position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 50%;
+    top: 50%;
+    margin-left: -48px; /*half of the width */
+    margin-top: -48px; /*half of the height */
+	
+  }
 .venue a {
 	text-decoration: none;
 	color: #fff;

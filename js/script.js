@@ -31,6 +31,7 @@
 
     var sound = document.getElementById('my_audio').muted =true;
     $(document).on('click', function(){
+        document.getElementById('vol').className ="hidden";
         var audioElm = document.getElementById('my_audio'); 
         audioElm.play();
         audioElm.muted = !audioElm.muted;
