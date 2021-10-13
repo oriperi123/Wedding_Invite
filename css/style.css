@@ -494,7 +494,7 @@ body {
 }
 .parent {
 	position: relative;
-
+	margin-bottom: 0%;
   }
   .image1 {
 	position: relative;
