@@ -499,7 +499,8 @@ body {
   .image1 {
 	position: relative;
 	top: 50%;
-	
+	width: 120%;
+    height: 120%;
   }
   .image2 {
 	position: absolute;
