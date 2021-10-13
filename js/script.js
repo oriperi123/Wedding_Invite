@@ -31,20 +31,11 @@
 
     var sound = document.getElementById('my_audio').muted =true;
     $(document).on('click', function(){
-        document.getElementById('vol').className ="hidden";
+        document.getElementById('vol').style.visibility= "hidden";
         var audioElm = document.getElementById('my_audio'); 
         audioElm.play();
         audioElm.muted = !audioElm.muted;
     });
-  function changeImg() {
-      var image = document.getElementById('myImg');
-      if (image.src.match("assets/img/volume.png")) {
-          image.src = "assets/img/mute.png";
-      }
-      else {
-          image.src = "assets/img/volume.png";
-      }
-  }
 
 
 
