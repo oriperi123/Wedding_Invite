@@ -495,11 +495,13 @@ body {
 .parent {
 	position: relative;
 	margin-bottom: 0%;
+
   }
   .image1 {
 	position: relative;
 	top: 0;
 	left: 0;
+	
   }
   .image2 {
 	position: absolute;
@@ -556,6 +558,7 @@ body {
 	color: #e25c67;
 	font-weight: 1800;
 	font-size: 80px;
+	margin-top: 0%;
 	
 }
 .wed {
