@@ -48,7 +48,6 @@
 
 
 
-
 // Set the date we're counting down to
 var countDownDate = new Date("November 12, 2021 00:00:00").getTime();
 

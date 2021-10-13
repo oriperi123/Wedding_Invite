@@ -374,7 +374,7 @@ img {
 .musicOff{
 	position: absolute;
 	top: 0;
-	width: 50%;
+	width: 25%;
 	text-align: center;
 	
 	
@@ -540,7 +540,27 @@ body {
 	font-size: 80px;
 	
 }
-
+.wed {
+	font-family: 'Amatic SC', cursive;
+	color: #674ea7;
+	font-weight: 1800;
+	font-size: 50px;
+	
+}
+.names {
+	font-family: 'Amatic SC', cursive;
+	color: #674ea7;
+	font-weight: 1800;
+	font-size: 80px;
+	
+}
+.and {
+	font-family: 'Amatic SC', cursive;
+	color: #e25c67;
+	font-weight: 1800;
+	font-size: 50px;
+	
+}
 .place {
 	font-family: 'Amatic SC', cursive;
 	color: #874562;
