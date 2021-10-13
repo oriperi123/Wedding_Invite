@@ -494,9 +494,11 @@ body {
 }
 .parent {
 	position: relative;
-
   }
-
+  .image1 {
+	width: 130px;
+    height: 130px;
+  }
   .image2 {
 	position: absolute;
     width: 96px;
