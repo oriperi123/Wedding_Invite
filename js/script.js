@@ -20,7 +20,21 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
+ function swapImage(id,primary,secondary) {
+    src=document.getElementById(id).src;
+    if (src.match(primary)) {
+      document.getElementById(id).src=secondary;
+    } else {
+      document.getElementById(id).src=primary;
+    }
+  }
 
+    var sound = document.getElementById('my_audio').muted =true;
+    $(document).on('click', function(){
+        var audioElm = document.getElementById('my_audio'); 
+        audioElm.play();
+        audioElm.muted = !audioElm.muted;
+    });
   function changeImg() {
       var image = document.getElementById('myImg');
       if (image.src.match("assets/img/volume.png")) {
@@ -30,23 +44,7 @@
           image.src = "assets/img/volume.png";
       }
   }
-$(document).ready( function(){
-    document.getElementById("my_audio").play();
 
-});
-
-    $(".musicOff").click(function(){
-        var image = document.getElementById('myImg');
-        var x = document.getElementById("my_audio");
-        x.play();
-        if (image.src.match("assets/img/mute.png")) {
-            image.src = "assets/img/volume.png";
-        }
-        else {
-            image.src = "assets/img/mute.png";
-            x.pause();
-        }
-    });
 
 
 
