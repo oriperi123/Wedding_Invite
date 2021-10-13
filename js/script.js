@@ -20,6 +20,7 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
+document.getElementById('my_audio').muted =true;
  $(document).on('click', function(){
     var audioElm = document.getElementById('my_audio'); 
     audioElm.play();
