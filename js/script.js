@@ -64,7 +64,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = '<font size="1">הכניסה עם שורש/טבע/כפכפים אסורה ע״פ הנחיות משרד הבריאות</font>';
+        document.getElementById("time").innerHTML = '<font size=2">הכניסה עם שורש/טבע/כפכפים אסורה ע״פ הנחיות משרד הבריאות</font>';
     }
 }, 1000);
 
